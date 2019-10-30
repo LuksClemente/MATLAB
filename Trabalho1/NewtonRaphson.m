@@ -1,5 +1,5 @@
 function [x,iter] = NewtonRaphson(F, DF, x0, tol, maxiter)
-	  iter = 0;
+    iter = 0;
     error = inf;
     
     fprintf("-----RESULTADOS-----");
